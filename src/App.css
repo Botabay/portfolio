@@ -1,6 +1,10 @@
 .App {
-    max-width: 700px;
+    max-width: 900px;
     width: 70%;
     margin: 0 auto;
     background-color: grey;
+}
+
+.itemContainer {
+    padding: 20px;
 }

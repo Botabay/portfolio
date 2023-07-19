@@ -4,7 +4,7 @@ import { Introduction } from "./Introduction/Introduction"
 import { Projects } from "./Projects/Projects"
 import { Skills } from "./Skills/Skills"
 
-export const Content = () => {
+export const Content = (): JSX.Element => {
     return (<>
         <Introduction />
         <Skills />

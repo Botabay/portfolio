@@ -1,6 +1,6 @@
 import s from './ProjectItem.module.css'
 
-export const ProjectItem = () => {
+export const ProjectItem = (): JSX.Element => {
     return (
         <div className={s.item}>
             <div className={s.imgContainer}>

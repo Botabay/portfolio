@@ -1,6 +1,6 @@
 import s from './Navbar.module.css';
 
-export const Navbar = () => {
+export const Navbar = (): JSX.Element => {
     return (
         <div className={s.navbar}>
             <ul className=''>

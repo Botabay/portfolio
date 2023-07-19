@@ -2,7 +2,7 @@ import { SkillItem } from './SkillItem/SkillItem'
 import s from './Skills.module.css'
 import containerS from '../../../common/ContainerStyles.module.css'
 
-export const Skills = () => {
+export const Skills = (): JSX.Element => {
     return (
         <div className={`${s.skills} ${containerS.container}`}>
             <h2><span>Skills</span></h2>

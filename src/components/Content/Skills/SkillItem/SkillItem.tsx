@@ -1,6 +1,6 @@
 import s from './SkillItem.module.css'
 
-export const SkillItem = () => {
+export const SkillItem = (): JSX.Element => {
     return (
         <div className={s.item}>
             <div className={s.imgContainer}>img</div>

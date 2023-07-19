@@ -1,0 +1,18 @@
+div.aboutRemote {
+    text-align: center;
+}
+.aboutRemote h2.titleBlock {
+    height: 4rem;
+    background-color: #cfcfcf;
+}
+h2.titleBlock span{
+    background-color: #aaa;
+}
+
+.aboutRemote a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000; 
+    padding: 5px;
+    background-color: #777;
+}

@@ -1,10 +1,19 @@
+@import './common/variable.css';
 .App {
-    max-width: 900px;
-    width: 70%;
+    max-width: 991px;
+    min-width:360px;
+    width: 100%;
     margin: 0 auto;
     background-color: grey;
 }
 
 .itemContainer {
     padding: 20px;
+}
+
+.App>div:nth-child(even){
+    background-color: var(--even-block-background-color);
+}
+.App>div:nth-child(odd){
+    background-color: var(--odd-block-background-color);
 }

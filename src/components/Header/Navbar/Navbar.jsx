@@ -6,7 +6,7 @@ export const Navbar = () => {
             <ul className=''>
                 <li>Main page</li>
                 <li>Skills</li>
-                <li>Works</li>
+                <li>Projects</li>
                 <li>Contacts</li>
             </ul>
         </div>

@@ -1,0 +1,26 @@
+.introduction{
+    padding: 0 5%;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introduction div{
+    background-color: white;
+    width: 200px;
+}
+.aboutMeItem{
+    height: max-content;
+}
+
+.secondItem{
+    height: 200px;
+}
+
+@media (min-width: 280px) and (max-width: 603px) {
+    .introduction {
+        justify-content: center;
+    }
+}

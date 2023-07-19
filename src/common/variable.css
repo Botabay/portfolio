@@ -1,0 +1,7 @@
+/* variables.css */
+:root {
+    --header-background-color: #cecece;
+    --footer-background-color: #eee;
+    --even-block-background-color: #dadada;
+    --odd-block-background-color: #cfcfcf;
+  }

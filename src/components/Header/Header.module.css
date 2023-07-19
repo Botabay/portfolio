@@ -1,4 +1,6 @@
+@import '../../common/variable.css';
+
 .header {
-    background-color: red;
+    background-color: var(--header-background-color);
     padding: 10px 0;
 }

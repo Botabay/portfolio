@@ -1,0 +1,42 @@
+.item {
+    width: 45%;
+    min-width: 250px;
+    outline: 1px solid black;
+    background-color: white;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 10rem;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #aaa;
+    color: #000;
+}
+
+.aboutProjectContainer {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.aboutProjectContainer h3 {
+    font-size: 14px;
+    height: 1.4rem;
+}
+
+h3 span {
+    padding: 3px;
+    background-color: #eee;
+}
+
+.description {
+    background-color: #eee;
+    height: 7rem;
+}
